@@ -1,0 +1,64 @@
+Sales Analysis Report – Sahan Global Electronics Retailer
+ 1. Introduction
+•	Objective: This report analyzes sales data for a Sahan Global electronics retailer, focusing on product categories, customer distribution, seasonal trends, delivery times, and differences in online vs. in-store sales.
+•	Data Sources: The dataset includes transactions, product details, customer locations, store information, and exchange rates.
+________________________________________
+ 2. Data Overview
+•	The retailer sells various electronics, including laptops, smartphones, home appliances, gaming consoles, and accessories.
+•	Customers are located in multiple countries, with sales across physical stores and e-commerce platforms.
+
+3. Data Cleaning Process
+The following steps were performed to clean and prepare the data for analysis:
+A- Removing Null Values
+•	Null Square Meters Values: Rows with missing square meters were removed.
+
+4. Data Transformation
+•	Created New Columns: 
+o	Extracted Year and Month from the Order Date to analyze trends.
+o	Extracted Age from the birthdate and a column for Age Category.
+o	Extracted Delivery Time (Days) from the Order Date and Shipping Date, Delivery Time Category, Sales Channel
+o	Extracted Store Age from the Store Open Date.
+
+5. Data Model Used in This Analysis
+To conduct this analysis, a Star Schema data model was designed in Power BI, ensuring efficient data organization and optimized performance. The model consists of a central Fact Table (Sales Transactions) linked to multiple Dimension Tables (Customers, Products, and Store).
+Structure of the Data Model
+•	Fact Table: Contains transactional data such as Order Number, Order Date, Delivery Date, and Quantity.
+•	Dimension Tables: 
+o	Customers (Customer ID, Gender, Name, Location, Birthdate)
+o	Products (Product ID, Product Name, Category, Subcategory, Color, Cost, Price)
+o	Store (Store ID, Location, Square Meter, Open Date)
+The relationships between Dimension Tables and Fact Table follow a one-to-many.
+
+6. Key Findings
+A. Product Categories & Customer Locations
+ Findings:
+•	The top-selling products are computers (34.46%), followed by home appliances (19.6%) and cameras and camcorders (11.7%) and cellphones (11%)
+•	The highest number of customers come from North America (58%), followed by Europe (35.6%) and Australia (6.4%).
+
+B. Seasonal Trends in Sales & Revenue
+Findings:
+•	Sales spike in Q4 (November-February) due to holiday shopping.
+•	Revenue peaks in November (Black Friday & Cyber Monday) and December (Christmas sales).
+•	Lower sales occur in March and April.
+
+C. Average Delivery Time Trends
+ Findings:
+•	The average delivery time is 1 day.
+•	Delivery times have been same (2020) to (2024).
+
+D. Online vs. In-Store Sales: Average Order Value (AOV)
+ Findings:
+•	Online AOV: $161.3
+•	In-store AOV: $148
+•	Customers tend to buy higher-value products In-Store.
+
+E. Recommendations
+•	Focus marketing efforts on Q4 to maximize holiday season sales.
+•	Improve website, offer online-only discounts, boost digital ads.
+•	 Expand product offerings in high-demand regions like North America and Europe.
+•	Enhance Customer Service Channels, and Implementing Customer Feedback and Loyalty Programs.
+•	Offer Personalized and Creating Limited-Quantity Discounts
+
+7. Conclusion
+This report highlights sales trends, seasonal patterns, and customer purchasing behaviors. By leveraging these insights, the retailer can optimize sales strategies, improve customer experience, and drive revenue growth.
+
