@@ -1,16 +1,14 @@
-## Hi there 👋
+<h1 align="center">Hi 👋, I'm Mohamed Farah</h1>
+<h3 align="center">A passionate Data Analyst from Somalia</h3>
 
-<!--
-**SamAinan33/samainan33** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+- 🌱 I’m currently learning **Python**
 
-Here are some ideas to get you started:
+- 👯 I’m looking to collaborate on **Data Analysis**
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+- 📫 How to reach me **samainan33@gmail.com**
+
+- ⚡ Fun fact **Play Sports**
+
+<h3 align="left">Connect with me:</h3>
+<p align="left">
+</p>
